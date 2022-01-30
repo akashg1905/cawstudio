@@ -20,7 +20,7 @@ def index(request):
                 movies_data.append({
                     "id": show.id,
                     "name": show.name,
-                    "url": "http://" + base + "/media/" + str(show.movie.url),
+                    "url": "https://" + base + "/media/" + str(show.movie.url),
                     "theatre":show.theatre.name
                 })
             context = {
